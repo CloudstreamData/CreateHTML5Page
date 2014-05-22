@@ -37,12 +37,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	Disconnect.click = function Disconnect_click (event)// @startlock
 	{// @endlock
-		$$("navigationView3").goToNextView();
+		$$("navigationView1").goToNextView();
 	};// @lock
 
 	Connect.click = function Connect_click (event)// @startlock
 	{// @endlock
-		$$("navigationView2").goToNextView();
+		$$("navigationView1").goToNextView();
 	};// @lock
 
 // @region eventManager// @startlock
